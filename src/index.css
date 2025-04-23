@@ -6,7 +6,7 @@
 }
 
 body {
-  /* Catchy gradient background */
+  
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   background-attachment: fixed;
   text-align: center;
@@ -134,7 +134,7 @@ h2 {
   box-shadow: 0 2px 8px rgba(93, 92, 222, 0.2);
 }
 
-/* SearchBar Styles */
+
 .search-bar {
   margin-bottom: 20px;
   width: 100%;
@@ -161,7 +161,7 @@ h2 {
   outline: none;
 }
 
-/* ExpenseTable Styles */
+
 .expense-table {
   background-color: white;
   padding: 25px;
@@ -247,7 +247,6 @@ tr:hover {
   font-style: italic;
 }
 
-/* Responsive Design */
 @media (min-width: 768px) {
   form {
     display: flex;
@@ -284,7 +283,6 @@ tr:hover {
   }
 }
 
-/* Animation for new expenses */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
